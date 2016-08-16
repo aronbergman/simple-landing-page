@@ -471,7 +471,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -4480,7 +4480,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: left;
 width: 200px;
 height: 150px;
-  background-image: url("../img/logo.svg");
+  background-image: url("../img/logo.png");
   background-size: 100%;
 }
 

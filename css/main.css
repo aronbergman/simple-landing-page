@@ -2,12 +2,13 @@
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu);
 
 /* OVERALL ASPECT */
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "PT Sans";
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -20,7 +21,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Ubuntu";
     font-weight: 300;
     color: #333;
 }
@@ -84,12 +85,14 @@ a:after {
 	font-size: 14px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: hsla(0, 0%, 94.9%, .5);
+	background: linear-gradient(to bottom, rgba(999,999,999,1), rgba(999,999,999,1), rgba(999,999,999,1),
+                      rgba(999,999,999,1), rgba(999,999,999,0.9), rgba(999,999,999,0.7), rgba(999,999,999,0.4),
+                      rgba(999,999,999,0.1),rgba(999,999,999,0));
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: #47acda;
 }
 
 .navbar-brand {
@@ -100,7 +103,7 @@ a:after {
 
 .btn-theme {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: #47acda;
 	border-color: transparent;
 }
 
@@ -123,23 +126,28 @@ a:after {
 	width: 100%;
 	padding-top: 250px;
 	padding-bottom: 250px;
+	background-image: url("../media/Down/Snapshots/Down.jpg"); 
+	background-repeat: no-repeat;
+	background-position-x: center;
+
+	
 }
 
 #hello h1 {
 	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: 3px;
-	color: #74cfae;
+	color: #47acda;
 }
 
 #hello h2 {
-	color: #c0c0c0;
+	color: black;
 	font-weight: 400;
 }
 
 /* Green */
 #green {
-	background-color: #74cfae;
+	background-color: #47acda;
 	padding-top: 50px;
 	margin-bottom: 0px;
 }
@@ -182,7 +190,7 @@ a:after {
 
 #social i {
 	font-size: 50px;
-	color: #74cfae;
+	color: #47acda;
 }
 
 #social .col-md-3:hover {
@@ -196,7 +204,7 @@ a:after {
 /* Footer */
 #f {
 	padding-top: 20px;
-	background-color: #74cfae;
+	background-color: #47acda;
 }
 
 #f p {
@@ -211,4 +219,8 @@ a:after {
 }
 .grid img:hover {
     opacity: 1;
+}
+.row.mt.centered{
+padding-top: 33px;
+padding-bottom: 33px;;
 }

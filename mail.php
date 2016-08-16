@@ -4,8 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
     if (isset($_POST['formData'])) {$formData = $_POST['formData'];}
 
-    $to = "a.mkr@icloud.com";
-    $sendfrom   = "mail@bb-one.ru";
+    $to = "8rezvanov8@gmail.com";
+    $sendfrom   = "8rezvanov8@gmail.com";
     $headers  = "From: " . strip_tags($sendfrom) . "\r\n";
     $headers .= "Reply-To: ". strip_tags($sendfrom) . "\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
